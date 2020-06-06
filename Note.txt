@@ -1,0 +1,4 @@
+Generate dataset
+Compare results with original
+Test with self-trained neural network
+Document everything
