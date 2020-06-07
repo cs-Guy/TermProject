@@ -6,12 +6,15 @@ DetectModel.py uses the custom CNN model to detect the different gestures
 Report.docx summarizes my findings and suggestions for other people looking to do further testing or research in this topic
 
 Controls:
+
 DetectAlgor.py
 - two fingers: move cursor (corresponds to hand position)
 - three fingers: 
-- four fingers:
+- four fingers: right click
 - five fingers: left click
+
 DetectModel.py
+
 - no fingers: do nothing
 - one finger: move cursor up
 - two fingers: move cursor right
