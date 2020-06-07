@@ -23,7 +23,7 @@ from sklearn.model_selection import train_test_split
 
 
 # Define data path
-data_path ='C:/Users/Guy/Desktop/Life of Guy/school/ML Project/Term Project/dataset'
+data_path ='C:/Users/Guy/Desktop/Life of Guy/school/ML Project/TermProject/dataset'
 data_dir_list = os.listdir(data_path)
 print(data_dir_list)
 
@@ -165,6 +165,8 @@ loaded_model = model_from_json(loaded_model_json)
 # load weights into new model
 loaded_model.load_weights("model.h5")
 print("Loaded model from disk")
+
+loaded_model.summary()
 
 model.save('model.hdf5')
 loaded_model=load_model('model.hdf5')
